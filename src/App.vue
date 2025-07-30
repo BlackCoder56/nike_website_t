@@ -11,11 +11,12 @@ import {
     Subscribe,
     SuperQuality
 } from './sections'
+import Nav from './components/Nav.vue';
 </script>
 
 <template>
   <main class="relative">
-    <!-- <Nav/> -->
+    <Nav />
     <section class="sm:px-16 px-8 sm:py-24 py-12">
       <Hero/>
     </section>
