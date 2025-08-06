@@ -5,7 +5,7 @@ import { hamburger } from '@/assets/icons';
 
 <template>
   <header class="sm:px-16 px-8 py-8 absolute z-10 w-full">
-    <nav>
+    <nav class="flex justify-between items-center max-w-[1440px] mx-auto">
       <a href="/">
         <img 
         :src="headerLogo" 
