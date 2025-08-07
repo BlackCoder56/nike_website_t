@@ -15,6 +15,9 @@ import { hamburger } from '@/assets/icons';
           width:'130px',
           height:'29px'
         }" />
+        <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+          
+        </ul>
       </a>
     </nav>
   </header>
