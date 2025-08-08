@@ -1,5 +1,6 @@
 <script setup>
 import { headerLogo } from '@/assets/images'; // No ?url
+import { hamburger } from '@/assets/icons';
 import { navLinks } from '@/constants' // imports array of nav links
 </script>
 
@@ -25,6 +26,13 @@ import { navLinks } from '@/constants' // imports array of nav links
           </a>
         </li>
       </ul>
+      <div class="hidden max-lg:block">
+        <img 
+        :src="hamburger" 
+        alt="hamburger"
+        :style="{ width: '25px', height: '25px'}"
+        >
+      </div>
     </nav>
   </header>
 </template>
