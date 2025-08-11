@@ -17,7 +17,7 @@ import Nav from './components/Nav.vue';
 <template>
   <main class="relative">
     <Nav />
-    <section class="sm:px-16 px-8 sm:py-24 py-12">
+    <section class="sm:px-16 px-8 sm:py-24">
       <Hero/>
     </section>
  
