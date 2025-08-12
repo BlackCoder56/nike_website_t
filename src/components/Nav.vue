@@ -5,7 +5,7 @@ import { navLinks } from '@/constants' // imports array of nav links
 </script>
 
 <template>
-  <header class="sm:px-16 px-8 py-8 absolute z-10 w-full bg-green-200">
+  <header class="absolute top-0 left-0 sm:px-16 px-8 py-8 z-50 w-full">
     <nav class="flex justify-between items-center max-w-[1440px] mx-auto">
       <a href="/">
         <img 
